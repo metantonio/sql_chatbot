@@ -1,5 +1,7 @@
-from sql_analyzer.agent_factory import agent_factory
-from sql_analyzer.log_init import logger
+""" from sql_analyzer.agent_factory import agent_factory
+from sql_analyzer.log_init import logger """
+from .agent_factory import agent_factory
+from .log_init import logger
 from prompt_toolkit import HTML, PromptSession
 from prompt_toolkit.history import FileHistory
 

@@ -1,6 +1,6 @@
 import chainlit as cl
-
-from sql_analyzer.agent_factory import agent_factory
+""" from sql_analyzer.agent_factory import agent_factory """
+from .agent_factory import agent_factory
 from langchain.agents import AgentExecutor
 
 

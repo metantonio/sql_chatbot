@@ -2,6 +2,7 @@ from langchain.sql_database import SQLDatabase
 from snowflake.sqlalchemy import URL
 from sqlalchemy import create_engine
 
+""" from sql_analyzer.config import SNOWFLAKE, MYSQL, cfg """
 from sql_analyzer.config import SNOWFLAKE, MYSQL, cfg
 
 from log_init import logger

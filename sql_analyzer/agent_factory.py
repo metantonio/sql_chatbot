@@ -13,10 +13,15 @@ from langchain.agents.mrkl.prompt import FORMAT_INSTRUCTIONS
 from typing import Union
 import re
 
-from sql_analyzer.config import cfg
+""" from sql_analyzer.config import cfg
 from sql_analyzer.log_init import logger
 from sql_analyzer.sql.sql_tool import ExtendedSQLDatabaseToolkit
-from sql_analyzer.sql_db_factory import sql_db_factory
+from sql_analyzer.sql_db_factory import sql_db_factory """
+
+from .config import cfg
+from .log_init import logger
+from .sql.sql_tool import ExtendedSQLDatabaseToolkit
+from .sql_db_factory import sql_db_factory
 
 FINAL_ANSWER_ACTION = "Final Answer:"
 
